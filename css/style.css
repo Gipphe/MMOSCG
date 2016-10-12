@@ -3,6 +3,9 @@ body {
     font-family: sans-serif;
     background-color: #eee;
 }
+
+/* Secions
+------------ */
 section {
     box-sizing: border-box;
     background-color: #fff;
@@ -23,19 +26,22 @@ section h1 {
     margin: 10px 0;
     text-align: center;
 }
+
+/* Navbar
+------------ */
 .nav-offset,
 nav {
     height: 30px;
 }
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 nav a {
     margin: 0 10px;
@@ -46,4 +52,10 @@ nav a:visited,
 nav a:active {
     color: inherit;
     text-decoration: inherit;
+}
+nav .languages span {
+    cursor: pointer;
+}
+nav .languages span:hover {
+    text-decoration: underline;
 }
