@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #eee;
+}
+section {
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 20px 30px;
+    width: 60%;
+    margin: 20px auto;
+}
+section p {
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 1001px) {
+    section {
+        width: 80%;
+    }
+}
+section h1 {
+    margin: 10px 0;
+    text-align: center;
+}
+.nav-offset,
+nav {
+    height: 30px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ddd;
+}
+nav a {
+    margin: 0 10px;
+}
+nav a,
+nav a:hover,
+nav a:visited,
+nav a:active {
+    color: inherit;
+    text-decoration: inherit;
+}
