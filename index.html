@@ -1,47 +1,226 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta http-equiv="I-UA-Compatible" content="IE=Edge,chrome=1">
-        <meta charset="utf-8">
-        <title>MMOSCG</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+	<head>
+		<meta http-equiv="I-UA-Compatible" content="IE=Edge,chrome=1">
+		<meta charset="utf-8">
+		<title>MMOSCG</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
 
-    <body lang="en">
-        <nav>
-             <a href="#top">Topp</a>
-             <a href="#problem">Get started</a>
-             <a href="#målgrupp">About</a>
-            <div class="languages">
-                 <span title="Norsk"><a lang="no" onclick="changeLang('no')" onkeypress="changeLang('no')">Norsk</a></span>
-                 <span title="Engelsk"><a lang="en" onclick="changeLang('en')" onkeypress="changeLang('en')">English</a></span>
-                 <span title="Arabisk"><a lang="ar" onclick="changeLang('ar')" onkeypress="changeLang('ar')">العربية</a></span>
-            </div>
-        </nav>
-        <div class="nav-offset" id="#top"></div>
-        <section id="top">
-            <p class="en">Every child should have equal opportunities to acquire literacy</p>
-            <p class="no">Hvert eneste barn skal ha muligheten til å lære å lese</p>
-        </section>
-        <section id="problem">
-             <h1>Educating children in Syria</h1>
-            <p>The Syrian conflict is disrupting the education of millions of children, in addition to threatening their physical safety and psychosocial well-being. According to the Save the Children report, “The Cost of War” (2015), approximately 2.8
-                million Syrian children are not receiving any form of education inside Syria or across the region. Literacy rates were at 95% for 15-24 year-olds prior to the start of the conflict, but Syria now has one of the lowest school enrolment
-                rates in the world.
-                <br>
-                <br>Achieving reading and writing fluency (literacy) is foundational for lifelong learning, and therefore a particularly important skill for all children to acquire. Being literate in the language one uses at home also makes it easier
-                to learn second languages and hence facilitates the integration into host-country education systems.
-            </p>
-        </section>
-        <section id="målgruppe">
-             <h1>Målgruppe</h1>
-            <p>Vivamus ligula felis, tincidunt at facilisis quis, ultricies ut nunc. Nunc eleifend arcu et mi interdum, ac dictum dolor ornare. Fusce id sem lacus. Phasellus eget sodales libero. Maecenas nisl dui, mollis at elit sed, dapibus posuere
-                justo. Proin pellentesque magna a lacinia vestibulum. Nunc dapibus lobortis diam, in ultricies elit finibus non. Praesent sagittis, arcu vel mollis consectetur, sapien lectus pharetra turpis, sed porta dolor eros vitae turpis. In semper
-                ac eros et iaculis.
-            </p>
-        </section>
-        <script src="js/index.js"></script>
-    </body>
+	<body lang="no">
+		<nav>
+			<div class="links">
+				<a class="no" href="#top">Topp</a>
+				<a class="en" href="#top">Top</a>
+				<a class="ar" href="#top">أعلى</a>
+				<a class="no" href="#educating">Syriske barns utdanning i fokus</a>
+				<a class="en" href="#educating">Educating children in Syria</a>
+				<a class="ar" href="#educating">تعليم الأطفال في سوريا</a>
+				<a class="no" href="#mission">Vårt oppdrag</a>
+				<a class="en" hreF="#mission">Our mission</a>
+				<a class="ar" href="#mission">مهمتنا</a>
+				<a class="no" href="#parents">For foreldre</a>
+				<a class="en" href="#parents">For parents</a>
+				<a class="ar" href="#parents">للآباء</a>
+				<a class="no" href="#get-started">Kom i gang</a>
+				<a class="en" href="#get-started">Get started</a>
+				<a class="ar" href="#get-started">"فكر الأمام. تعلم الآن "</a>
+			</div>
+			<div class="languages">
+				<span title="Norsk">
+					<a class="selected" lang="no" onclick="changeLang('no')" onkeypress="changeLang('no')"><img alt="Norsk" src="img/norwegian-flag.png"></a>
+				</span>
+				<span title="Engelsk">
+					<a lang="en" onclick="changeLang('en')" onkeypress="changeLang('en')"><img alt="English" src="img/us-flag.png"></a>
+				</span>
+				<span title="Arabisk">
+					<a lang="ar" onclick="changeLang('ar')" onkeypress="changeLang('ar')"><img alt="العربية" src="img/syrian-flag.png"></a>
+				</span>
+			</div>
+		</nav>
+		<main>
+			<section id="top">
+				<div class="name">
+					App-navn
+				</div>
+				<p class="en">Every child should have equal opportunities to acquire literacy</p>
+				<p class="no">Hvert eneste barn skal ha like muligheter til å lære å lese og skrive</p>
+				<p class="ar">يجب أن يكون لكل طفل فرص متساوية للحصول على محو الأمية</p>
+			</section>
+			<section id="educating">
+				<div class="en">
+					<h1>Educating children in Syria</h1>
+					<p>
+						The Syrian conflict is disrupting the education of millions of children, in addition to threatening their physical safety and psychosocial well-being. According to the Save the Children report, “The Cost of War” (2015), approximately 2.8 million Syrian children are not receiving any form of education inside Syria or across the region. Literacy rates were at 95% for 15-24 year-olds prior to the start of the conflict, but Syria now has one of the lowest school enrolment rates in the world.
+					</p>
+					<p>
+						Achieving reading and writing fluency (literacy) is foundational for lifelong learning, and therefore a particularly important skill for all children to acquire. Being literate in the language one uses at home also makes it easier to learn second languages and hence facilitates the integration into host-country education systems.
+					</p>
+				</div>
+				<div class="no">
+					<h1>Syriske barns utdanning i fokus</h1>
+					<p>
+						Konflikten i Syria forstyrrer skolegangen til flere millioner barn. Dette har en stor effekt på barnas lese- og skriveferdigheter. I følge tall fra Redd Barnas rapport ”The Cost of War” fra 2015 var det 2,8 millioner syriske barn som ikke mottok noen som helst undervisning. En stor kontrast til førkrigstidens lese- og skrivekyndighetsrate på 95%.
+					</p>
+					<p>
+						Det å kunne skrive og lese er et grunnleggende og viktig verktøy for videre læring og utdanning. I tillegg vil det å kunne være skrive- og lesekyndig i språket som brukes i det daglige også gjøre videre læring av sekundere språk mye enklere.
+					</p>
+				</div>
+				<div class="ar">
+					<h1>تعليم الأطفال في سوريا</h1>
+					<p>
+						الصراع السوري هو المسؤول عن اضطراب تعليم الملايين من الأطفال، بالإضافة اثنين تهدد سلامتهم البدنية والنفسية رفاه. وفقا لحفظ التقرير ان الاطفال الذين، "ثمن الحرب" (2015)، ما يقرب من 2.8 مليون طفل سوري لا يتلقون أي شكل من أشكال التعليم داخل سوريا أو في جميع أنحاء المنطقة. وكانت معدلات معرفة القراءة والكتابة 95٪ عن الذين تتراوح أعمارهم بين 15-24 عاما قبل بدء النزاع، ولكن سوريا لديها الآن واحدة من أدنى معدلات الالتحاق بالمدارس في العالم.
+					</p>
+					<p>
+						تحقيق القراءة والكتابة طلاقة (محو الأمية) هو التأسيسية للتعلم مدى الحياة، وتكون هناك مهارة أهمية خاصة بالنسبة لجميع الأطفال اثنين اكتساب. ويجري القراءة والكتابة في اللغة التي يستخدمها واحد في المنزل أيضا يجعل من الأسهل اثنين من تعلم لغات الثانية وبالتالي تسهيل التكامل في نظم التعليم في البلد المضيف.
+					</p>
+				</div>
+			</section>
+			<section id="mission">
+				<div class="en">
+					<h1>Our mission</h1>
+					<p>
+						The main goal for “navnet på appen” is to enhance the reading and writing fluency for Syrian children. Being literate is the foundation for acquiring further knowledge and is one of the main ingredients for lifelong learning. Our goals:
+						<ul>
+							<li>Make education available for the children in Syria.</li>
+							<li>We want to make learning fun!</li>
+							<li>Encourage the children of Syria to acquire further knowledge.</li>
+							<li>Reduce learning barriers (like stress), with an app that makes learning fun and relaxing.</li>
+							<li>Create a good literacy foundation for lifelong learning.</li>
+						</ul>
+					</p>
+				</div>
+				<div class="no">
+					<h1>Vårt oppdrag</h1>
+					<p>
+						Hovedmålet for "Navnet på Appen" er å styrke lese- og skrivekunnskaper blant syriske barn. Å være språkkyndig er grunnlaget for å tilegne seg ytterligere kunnskap og er en av de viktigste ingrediensene for livslang læring. Våre mål:
+						<ul>
+							<li>Gjøre utdanning tilgjengelig for barn i Syria.</li>
+							<li>Vi ønsker å gjøre læring gøy!</li>
+							<li>Motivere barna i Syria til å tilegne seg ny kunnskap.</li>
+							<li>Redusere læringsbariærer (som stress), med en app som gjør læring gøy og beroligende.</li>
+							<li>Skape et godt språkgrunnlag for livslang læring.</li>
+						</ul>
+					</p>
+				</div>
+				<div class="ar">
+					<h1>مهمتنا</h1>
+					<p>
+						والهدف الرئيسي من "اسم التطبيق" هو اثنان تعزيز القراءة والكتابة طلاقة من الأطفال السوريين. ويجري القراءة والكتابة هو الأساس لاكتساب المزيد من المعارف ويعد واحدا من المكونات الرئيسية للتعلم مدى الحياة. أهدافنا:
+						<ul>
+							<li>توفير التعليم لأطفال سوريا.</li>
+							<li>نحن نريد أن نجعل متعة التعلم!</li>
+							<li>نهر الهندي أطفال سوريا اثنين من اكتساب المزيد من المعرفة.</li>
+							<li>خفض الحواجز التعلم (مثل الإجهاد)، مع التطبيق وهذا يجعل عملية التعلم متعة والاسترخاء.</li>
+							<li>إنشاء قاعدة محو الأمية جيدة للتعلم مدى الحياة.</li>
+						</ul>
+					</p>
+				</div>
+			</section>
+			<section id="parents">
+				<div class="en">
+					<h1>For parents</h1>
+					<h2>Why are literary skills so important for your child?</h2>
+					<p>
+						In “App” we like to say: “Think forward, learn now”. Literacy is one of the foundation pillars in communicating with others. To gain a life-long learning for your and boost your children’s skills it is vital that your children has a high level of literacy. Invest in your children’s future by making sure that they are able to read, write and understand the world that is around them.
+					</p>
+					<h2>How can you improve the literary development of your child?</h2>
+					<p>
+						Research studies have proven that when parents are involved in their children’s education, the children’s overall performance and motivation is improved. Here are some tips for how you can encourage your child to improve their literacy:
+						<ol>
+							<li>We believe that having fun while learning gives your child an extra motivation. Research on the field gives us wide support for this claim. “App” gives your child effective learning while it is fun at the same time.</li>
+							<li>Share your knowledge! Explain your children why and how you use your literacy in the way you do.</li>
+							<li>Encourage your child to read and to explain what he/she had just read in the newspaper, internet etc.</li>
+							<li>Make language enjoyable and show your children how they can benefit from their literacy skills.</li>
+							<li>“App” gives the user experience points and feedback on their performance. Positive feedback from parents is believed to be one of the most</li>
+							<li>Download our app so you can engage in the learning process along with your children.</li>
+						</ol>
+					</p>
+				</div>
+				<div class="no">
+					<h1>For foreldre</h1>
+					<h2>Hvorfor er skrive og leseferdigheter så viktig for ditt barn?</h2>
+					<p>
+						Hos oss sier vi: ”Tenk framover; lær nå”. Lese og skriveferdigheter er grunnlaget for å kunne kommunisere med andre. For å kunne få muligheten til å lære å utvikle seg videre i livet trenger barnet ditt gode lese- og skriveferdigheter. Invester i ditt barns fremtiden ved å forsikre deg om at barnet ditt kan lese, skrive og forstå verden rundt seg.
+					</p>
+					<h2>Hvordan kan du forbedre ditt  barns lese- og skriveferdigheter?</h2>
+					<p>
+						Forskning har vist at når foreldre er involvert, øker barnets prestasjon og motivasjon. Her er noen tips på hvordan du kan oppfordre ditt barn til å bli flinkere:
+						<ol>
+							<li>Vi tror at det å ha det gøy mens man lærer gir barnet ekstra motivasjon. Forskning på dette støtter denne tanken, og vår app gir barnet en morsom, positiv og effektiv måte å lære på.</li>
+							<li>Del din kunnskap! Forklar dine barn hvorfor og hvordan du bruker lese- og skriveferdigheter.</li>
+							<li>Oppfordre ditt barn til å lese og deretter forklare hva hun/han leste.</li>
+							<li>Gjør språk til en positiv del av hverdagen og vis barnet hvordan hun/han kan benytte seg av det.</li>
+							<li>”App” gir brukeren erfaringspoeng og positiv tilbakemelding. Det å ha foreldre som også gir positiv tilbakemelding har en ekstra god effekt.</li>
+							<li>Last ned vår app slik at du kan være mer deltakende i ditt barns prosess.</li>
+						</ol>
+					</p>
+				</div>
+				<div class="ar">
+					<h1>للآباء</h1>
+					<h2>لماذا المهارات الأدبية هام جدا لطفلك؟</h2>
+					<p>
+						في "أفكار" نود أن نقول: "فكر الأمام، وتعلم الآن." معرفة القراءة والكتابة هي واحدة من الركائز الأساس في التواصل مع الآخرين. اثنين من الحصول على التعلم مدى الحياة الخاصة بك وتعزيز مهارات أطفالك فمن الأهمية بمكان الأطفال لديها مستوى عال من محو الأمية. الاستثمار في المستقبل أطفالك بجعل فهي مريحة للقراءة والكتابة وفهم العالم وهذا هو حول نفسها.
+					</p>
+					<h2>كيف يمكنك تحسين تطوير الأدبية لطفلك؟</h2>
+					<p>
+						وقد أثبتت الدراسات والأبحاث أنه عندما يشارك الآباء في تعليم أبنائهم، وتحسن الأداء العام للأطفال والتحفيز. وهنا بعض النصائح حول كيفية يمكنك تشجيع طفلك على تحسين القراءة والكتابة:
+
+						<ol>
+							<li>نحن نعتقد أن يلهون في حين يعطي تعلم طفلك دافعا اضافيا. البحوث في هذا المجال يعطينا دعما واسعا لهذه المطالبة. "التطبيق" يعطي طفلك التعلم الفعال في حين انها متعة في نفس الوقت.</li>
+							<li>حصة علمك! شرح أطفالك لماذا وكيف كنت تستخدم محو الأمية بك في الطريقة التي لديك.</li>
+							<li>تشجيع طفلك على القراءة ولشرح ما كان له / لها مجرد قراءة في الصحف، والإنترنت إلخ.</li>
+							<li>لغة جعل ممتعة وتظهر أطفالك كيف يمكن الاستفادة من مهارات القراءة والكتابة.</li>
+							<li>"التطبيق" يعطي نقاط خبرة المستخدم وردود الفعل على أدائهم. ويعتقد ردود فعل إيجابية من الآباء والأمهات ليكون واحدا من أكثر</li>
+							<li>تحميل التطبيق لدينا حتى تتمكن من المشاركة في عملية التعلم جنبا إلى جنب مع أطفالك.</li>
+						</ol>
+					</p>
+				</div>
+			</section>
+			<section id="get-started">
+				<div class="en">
+					<h1>Get started</h1>
+					<p class="subtitle">Think forward; learn now</p>
+					<p>
+						<ul>
+							<li>Learning with "App-navn" is fun and effective.</li>
+							<li>Improve your reading and writing skills.</li>
+							<li>Gain experience points based on your performance.</li>
+							<li>Compete against your friends.</li>
+						</ul>
+						Our app is available through the AppStore for iOS and the playStore.
+					</p>
+				</div>
+				<div class="no">
+					<h1>Kom i gang</h1>
+					<p class="subtitle">Tenk fremover; lær nå</p>
+					<p>
+						<ul>
+							<li>Å lære med “App-navn” er gøy og effektivt.</li>
+							<li>Forbedre dine lese- og skriveferdigheter.</li>
+							<li>Samle ferdighetspoeng basert på dine prestasjoner.</li>
+							<li>Konkurrer mot dine venner.</li>
+						</ul>
+						Vår app er tilgjengelig gjennom AppStore på iOS og Play Store for Android.
+					</p>
+				</div>
+				<div class="ar">
+					<h1>تبدأ:</h1>
+					<p class="subtitle">"فكر الأمام. تعلم الآن "</p>
+					<p>
+						<ul>
+							<li>تعلم مع "التطبيق-حمل اسم" هو متعة وفعالية.</li>
+							<li>تحسين بك مهارات القراءة والكتابة</li>
+							<li>كسب نقاط الخبرة بناء على أدائك.</li>
+							<li>تنافس ضد أصدقائك.</li>
+						</ul>
+						لدينا التطبيق متاح من خلال أبستور لدائرة الرقابة الداخلية ومخزن اللعب.
+					</p>
+				</div>
+			</section>
+		</main>
+		<script src="js/index.js"></script>
+	</body>
 
 </html>
