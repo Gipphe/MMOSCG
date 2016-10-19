@@ -1,0 +1,44 @@
+HTML
+
+<div class="languages">
+				<span title="Norsk">
+					<a class="selected" id="no" lang="no" onclick="changeLang('no')" onkeypress="changeLang('no')"><img alt="Norsk" src="img/norwegian-flag.png"></a>
+				</span>
+				<span title="Engelsk">
+					<a class="" id="en" lang="en" onclick="changeLang('en')" onkeypress="changeLang('en')"><img alt="English" src="img/us-flag.png"></a>
+				</span>
+				<span  title="Arabisk">
+					<a id="ar" class="" lang="ar" onclick="changeLang('ar')" onkeypress="changeLang('ar')"><img alt="العربية" src="img/syrian-flag.png"></a>
+				</span>
+
+
+CSS
+
+#en,
+#no,
+#ar {
+    filter: grayscale(80%);
+}
+.selected {
+    filter: grayscale(0%) !important;
+}
+
+JS
+
+		document.getElementById('no').addEventListener('click', function(){
+			this.classList.add('selected');	
+			en.classList.remove('selected');
+			ar.classList.remove('selected');
+		});
+
+		document.getElementById('ar').addEventListener('click', function() {
+			this.classList.add('selected');
+			no.classList.remove('selected');
+			en.classList.remove('selected');
+		});
+
+		document.getElementById('en').addEventListener('click', function() {
+			this.classList.add('selected');
+			no.classList.remove('selected');
+			ar.classList.remove('selected');
+		});
