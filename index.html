@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 	<head>
 		<meta http-equiv="I-UA-Compatible" content="IE=Edge,chrome=1">
 		<meta charset="utf-8">
@@ -8,35 +7,37 @@
 		<link rel="shortcut icon" href="img/mr_duck.png">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-
-	<body lang="en">
+	<body>
 		<nav>
 			<div class="links">
-				<a class="no" href="#top">eDuck</a>
-				<a class="en" href="#top">eDuck</a>
-				<a class="ar" href="#top">eDuck</a>
-				<a class="no" href="#educating">Syriske barns utdanning i fokus</a>
-				<a class="en" href="#educating">Educating children in Syria</a>
-				<a class="ar" href="#educating">تعليم الأطفال في سوريا</a>
-				<a class="no" href="#mission">Vårt oppdrag</a>
-				<a class="en" hreF="#mission">Our mission</a>
-				<a class="ar" href="#mission">مهمتنا</a>
-				<a class="no" href="#parents">For foreldre</a>
-				<a class="en" href="#parents">For parents</a>
-				<a class="ar" href="#parents">للآباء</a>
-				<a class="no" href="#get-started">Kom i gang</a>
-				<a class="en" href="#get-started">Get started</a>
-				<a class="ar" href="#get-started">"فكر الأمام. تعلم الآن "</a>
+				<a class="no" lang="no" href="#top">Topp</a>
+				<a class="en" lang="en" href="#top">Top</a>
+				<a class="ar" lang="ar" href="#top">أعلى</a>
+				<a class="no" lang="no" href="#educating">Syriske barns utdanning i fokus</a>
+				<a class="en" lang="en" href="#educating">Educating children in Syria</a>
+				<a class="ar" lang="ar" href="#educating">تعليم الأطفال في سوريا</a>
+				<a class="no" lang="no" href="#mission">Vårt oppdrag</a>
+				<a class="en" lang="en" hreF="#mission">Our mission</a>
+				<a class="ar" lang="ar" href="#mission">مهمتنا</a>
+				<a class="no" lang="no" href="#parents">For foreldre</a>
+				<a class="en" lang="en" href="#parents">For parents</a>
+				<a class="ar" lang="ar" href="#parents">للآباء</a>
+				<a class="no" lang="no" href="#educk">eDuck</a>
+				<a class="en" lang="en" href="#educk">eDuck</a>
+				<a class="ar" lang="ar" href="#educk">eDuck</a>
+				<a class="no" lang="no" href="#get-started">Kom i gang</a>
+				<a class="en" lang="en" href="#get-started">Get started</a>
+				<a class="ar" lang="ar" href="#get-started">فكر الأمام. تعلم الآن</a>
 			</div>
 			<div class="languages">
+				<span title="English">
+					<a id="en" class="selected" lang="en" onclick="changeLang('en')" onkeypress="changeLang('en')"><img alt="English" src="img/us-flag.png"></a>
+				</span>
 				<span title="Norsk">
-					<a class="selected" lang="no" onclick="changeLang('no')" onkeypress="changeLang('no')"><img alt="Norsk" src="img/norwegian-flag.png"></a>
+					<a id="no" lang="no" onclick="changeLang('no')" onkeypress="changeLang('no')"><img alt="Norsk" src="img/norwegian-flag.png"></a>
 				</span>
-				<span title="Engelsk">
-					<a lang="en" onclick="changeLang('en')" onkeypress="changeLang('en')"><img alt="English" src="img/us-flag.png"></a>
-				</span>
-				<span title="Arabisk">
-					<a lang="ar" onclick="changeLang('ar')" onkeypress="changeLang('ar')"><img alt="العربية" src="img/syrian-flag.png"></a>
+				<span title="العربية">
+					<a id="ar" lang="ar" onclick="changeLang('ar')" onkeypress="changeLang('ar')"><img alt="العربية" src="img/syrian-flag.png"></a>
 				</span>
 			</div>
 		</nav>
@@ -45,41 +46,41 @@
 				<div class="name">
 					eDuck
 				</div>
-				<p class="en">Every child should have equal opportunities to acquire literacy</p>
-				<p class="no">Hvert eneste barn skal ha like muligheter til å lære å lese og skrive</p>
-				<p class="ar">يجب أن يكون لكل طفل فرص متساوية للحصول على محو الأمية</p>
+				<p class="en" lang="en">Every child should have equal opportunities to acquire literacy</p>
+				<p class="no" lang="no">Hvert eneste barn skal ha like muligheter til å lære å lese og skrive</p>
+				<p class="ar" lang="ar">يجب أن يكون لكل طفل فرص متساوية للحصول على محو الأمية</p>
 			</section>
 			<section id="educating">
-				<div class="en">
+				<div class="en" lang="en">
 					<h1>Educating children in Syria</h1>
 					<p>
-						The Syrian conflict is disrupting the education of millions of children, in addition to threatening their physical safety and psychosocial well-being. According to the Save the Children report, "The Cost of War" (2015), approximately 2.8 million Syrian children are not receiving any form of education inside Syria or across the region. Literacy rates were at 95% for 15-24 year-olds prior to the start of the conflict, but Syria now has one of the lowest school enrolment rates in the world.
-					</p>
-					<p>
+						<img alt="Phone displaying the app in use, showing a hand drawing an arabic character" class="illustration" src="img/phone-hand.png">
+						The Syrian conflict is disrupting the education of millions of children, in addition to threatening their physical safety and psychosocial well-being. According to the Save the Children report, "The Cost of War" (2015), approximately 2.8 million Syrian children are not receiving any form of education inside Syria or across the region. Literacy rates were at 95% for 15-24 year-olds prior to the start of the conflict, but Syria now has one of the lowest school enrolment rates in the world.<br>
+						&nbsp;<br>
 						Achieving reading and writing fluency (literacy) is foundational for lifelong learning, and therefore a particularly important skill for all children to acquire. Being literate in the language one uses at home also makes it easier to learn second languages and hence facilitates the integration into host-country education systems.
 					</p>
 				</div>
-				<div class="no">
+				<div class="no" lang="no">
 					<h1>Syriske barns utdanning i fokus</h1>
 					<p>
-						Konflikten i Syria forstyrrer skolegangen til flere millioner barn. Dette har en stor effekt på barnas lese- og skriveferdigheter. I følge tall fra Redd Barnas rapport "The Cost of War" fra 2015 var det 2,8 millioner syriske barn som ikke mottok noen som helst undervisning. En stor kontrast til førkrigstidens lese- og skrivekyndighetsrate på 95%.
-					</p>
-					<p>
+						<img alt="Telefonen viser programmet i bruk, viser en hånd som tegner et arabisk tegn" class="illustration" src="img/phone-hand.png">
+						Konflikten i Syria forstyrrer skolegangen til flere millioner barn. Dette har en stor effekt på barnas lese- og skriveferdigheter. I følge tall fra Redd Barnas rapport "The Cost of War" fra 2015 var det 2,8 millioner syriske barn som ikke mottok noen som helst undervisning. En stor kontrast til førkrigstidens lese- og skrivekyndighetsrate på 95%.<br>
+						&nbsp;<br>
 						Det å kunne skrive og lese er et grunnleggende og viktig verktøy for videre læring og utdanning. I tillegg vil det å kunne være skrive- og lesekyndig i språket som brukes i det daglige også gjøre videre læring av sekundere språk mye enklere.
 					</p>
 				</div>
-				<div class="ar">
+				<div class="ar" lang="ar">
 					<h1>تعليم الأطفال في سوريا</h1>
 					<p>
-						الصراع السوري هو المسؤول عن اضطراب تعليم الملايين من الأطفال، بالإضافة اثنين تهدد سلامتهم البدنية والنفسية رفاه. وفقا لحفظ التقرير ان الاطفال الذين، "ثمن الحرب" (2015)، ما يقرب من 2.8 مليون طفل سوري لا يتلقون أي شكل من أشكال التعليم داخل سوريا أو في جميع أنحاء المنطقة. وكانت معدلات معرفة القراءة والكتابة 95٪ عن الذين تتراوح أعمارهم بين 15-24 عاما قبل بدء النزاع، ولكن سوريا لديها الآن واحدة من أدنى معدلات الالتحاق بالمدارس في العالم.
-					</p>
-					<p>
+						<img alt="الهاتف عرض التطبيق في استخدام، مما يدل على ناحية رسم الطابع العربية" class="illustration" src="img/phone-hand.png">
+						الصراع السوري هو المسؤول عن اضطراب تعليم الملايين من الأطفال، بالإضافة اثنين تهدد سلامتهم البدنية والنفسية رفاه. وفقا لحفظ التقرير ان الاطفال الذين، "ثمن الحرب" (2015)، ما يقرب من 2.8 مليون طفل سوري لا يتلقون أي شكل من أشكال التعليم داخل سوريا أو في جميع أنحاء المنطقة. وكانت معدلات معرفة القراءة والكتابة 95٪ عن الذين تتراوح أعمارهم بين 15-24 عاما قبل بدء النزاع، ولكن سوريا لديها الآن واحدة من أدنى معدلات الالتحاق بالمدارس في العالم.<br>
+						&nbsp;<br>
 						تحقيق القراءة والكتابة طلاقة (محو الأمية) هو التأسيسية للتعلم مدى الحياة، وتكون هناك مهارة أهمية خاصة بالنسبة لجميع الأطفال اثنين اكتساب. ويجري القراءة والكتابة في اللغة التي يستخدمها واحد في المنزل أيضا يجعل من الأسهل اثنين من تعلم لغات الثانية وبالتالي تسهيل التكامل في نظم التعليم في البلد المضيف.
 					</p>
 				</div>
 			</section>
 			<section id="mission">
-				<div class="en">
+				<div class="en" lang="en">
 					<h1>Our mission</h1>
 					<p>
 						The main goal for eDuck is to enhance the reading and writing fluency for Syrian children. Being literate is the foundation for acquiring further knowledge and is one of the main ingredients for lifelong learning. Our goals:
@@ -92,7 +93,7 @@
 						</ul>
 					</p>
 				</div>
-				<div class="no">
+				<div class="no" lang="no">
 					<h1>Vårt oppdrag</h1>
 					<p>
 						Hovedmålet for eDuck er å styrke lese- og skrivekunnskaper blant syriske barn. Å være språkkyndig er grunnlaget for å tilegne seg ytterligere kunnskap og er en av de viktigste ingrediensene for livslang læring. Våre mål:
@@ -105,7 +106,7 @@
 						</ul>
 					</p>
 				</div>
-				<div class="ar">
+				<div class="ar" lang="ar">
 					<h1>مهمتنا</h1>
 					<p>
 						والهدف الرئيسي من eDuck هو اثنان تعزيز القراءة والكتابة طلاقة من الأطفال السوريين. ويجري القراءة والكتابة هو الأساس لاكتساب المزيد من المعارف ويعد واحدا من المكونات الرئيسية للتعلم مدى الحياة. أهدافنا:
@@ -120,7 +121,7 @@
 				</div>
 			</section>
 			<section id="parents">
-				<div class="en">
+				<div class="en" lang="en">
 					<h1>For parents</h1>
 					<h2>Why are literary skills so important for your child?</h2>
 					<p>
@@ -139,7 +140,7 @@
 						</ol>
 					</p>
 				</div>
-				<div class="no">
+				<div class="no" lang="no">
 					<h1>For foreldre</h1>
 					<h2>Hvorfor er skrive og leseferdigheter så viktig for ditt barn?</h2>
 					<p>
@@ -158,7 +159,7 @@
 						</ol>
 					</p>
 				</div>
-				<div class="ar">
+				<div class="ar" lang="ar">
 					<h1>للآباء</h1>
 					<h2>لماذا المهارات الأدبية هام جدا لطفلك؟</h2>
 					<p>
@@ -179,8 +180,36 @@
 					</p>
 				</div>
 			</section>
+			<section id="educk">
+				<div class="en" lang="en">
+					<h1>eDuck</h1>
+					Say hello to Duck! Our mascot takes the children through a journey of learning and activities. Play with words and sentences, language structure and other exciting tasks.<br>
+					&nbsp;<br>
+					The application also have an experience point system which motivates the players to reach new goals and further learning progression. eDuck also gives the children the opportunity to play against their friends, and compete for bonus points.<br>
+					&nbsp;<br>
+					Duck will always be there to teach, guide and support the player. If the player need help, Duck can trade hints for Quack-points.
+				</div>
+				<div class="no" lang="no">
+					<h1>eDuck</h1>
+					Si hei til Duck! Maskoten vår tar barna med på en spennende og lærerik reise gjennom ulike aktiviteter i appen. Lek med bokstaver  og ord, setningsoppbygging, gjenkjenning og artige regneoppgaver.<br>
+					&nbsp;<br>
+					Appen har et poengsystem som skal motivere spillerne til progresjon slik at de oppnår nye nivåer. eDuck gir også barna muligheten til å spille mot sine venner, og konkurrere om bonuspoeng.<br>
+					&nbsp;<br>
+					Duck vil alltid være der for å lære, veilede og støtte spilleren. Hvis spilleren trenger hjelp, kan Duck gi spilleren hint mot Quack-poeng.		
+				</div>
+				<div class="ar" lang="ar">
+					<h1>eDuck</h1>
+					ويقول مرحبا لبطة! لدينا تعويذة يأخذ الأطفال من خلال رحلة التعلم والأنشطة. اللعب مع الكلمات والجمل، بنية اللغة ومهام أخرى مثيرة.<br>
+					&nbsp;<br>
+					أن يكون التطبيق أيضا نظام نقطة خبرة التي تحفز اللاعبين للوصول إلى أهداف جديدة ومزيد من التقدم في التعلم. كما يعطي eDuck الأطفال الفرصة للعب ضد أصدقائهم، والذي يعطي عاملا تنافسيا وتحفيز في هذه اللعبة.<br>
+					&nbsp;<br>
+					سوف بطة يكون دائما هناك للتدريس. توجيه ودعم لاعب. إذا كان لاعب بحاجة إلى مساعدة، يمكن بطة التجارة تلميحات لمشعوذ نقاط.
+				</div>
+				<img alt="Phone displaying the main splash screen of the app" class="illustration" src="img/phone-duck.png">
+			</section>
 			<section id="get-started">
-				<div class="en">
+				<img alt="Phone displaying the app with the main menu open" class="illustration" src="img/phone-menu.png">
+				<div class="en" lang="en">
 					<h1>Get started</h1>
 					<p class="subtitle">Think forward; learn now</p>
 					<p>
@@ -193,7 +222,7 @@
 						Our app is available through the AppStore for iOS and the playStore.
 					</p>
 				</div>
-				<div class="no">
+				<div class="no" lang="no">
 					<h1>Kom i gang</h1>
 					<p class="subtitle">Tenk fremover; lær nå</p>
 					<p>
@@ -206,7 +235,7 @@
 						Vår app er tilgjengelig gjennom AppStore på iOS og Play Store for Android.
 					</p>
 				</div>
-				<div class="ar">
+				<div class="ar" lang="ar">
 					<h1>تبدأ:</h1>
 					<p class="subtitle">"فكر الأمام. تعلم الآن "</p>
 					<p>
@@ -221,22 +250,21 @@
 				</div>
 			</section>
 			<footer>
-				<div class="en">
+				<div class="en" lang="en">
 					&copy;2016 eDuck Inc. All rights reserved.<br>
-					Created by M. Lervik, N. Nanthawisit, S. Sunde, N. Johansen, J. Eide, P. Hansen, J. Iversen, P. Wibe, C. Arntzen, A. Reinholt and V. Bakke.
+					Created by M. Lervik, N. Nanthawisit, S. Sunde, N. Johansen, J. Eide, P. Hansen, J. Iversen, P. Wibe, C. Arntzen, F. Kluftødegård, A. Reinholt and V. Bakke.
 				</div>
-				<div class="no">
+				<div class="no" lang="no">
 				&copy;2016 eDuck Inc. Alle rettigheter reservert.<br>
-					Skapt av M. Lervik, N. Nanthawisit, S. Sunde, N. Johansen, J. Eide, P. Hansen, J. Iversen, P. Wibe, C. Arntzen, A. Reinholt og V. Bakke.
+					Skapt av M. Lervik, N. Nanthawisit, S. Sunde, N. Johansen, J. Eide, P. Hansen, J. Iversen, P. Wibe, C. Arntzen, F. Kluftødegård, A. Reinholt og V. Bakke.
 				</div>
-				<div class="ar">
+				<div class="ar" lang="ar">
 					&copy;2016 eDuck وشركة جميع الحقوق محفوظة.
 					التي أنشأتها M. Lervik, N. Nanthawisit, S. Sunde, N. Johansen, J. Eide, P. Hansen, J. Iversen,
-				P. Wibe, C. Arntzen, A. Reinholt و V. Bakke
+				P. Wibe, C. Arntzen, F. Kluftødegård, A. Reinholt و V. Bakke
 				</div>
 			</footer>
 		</main>
 		<script src="js/index.js"></script>
 	</body>
-
 </html>
