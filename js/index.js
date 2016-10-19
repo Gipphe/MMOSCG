@@ -16,6 +16,11 @@
 		no.classList.remove('selected');
 		ar.classList.remove('selected');
 	});
+	var links = document.getElementById('links');
+	links.addEventListener('click', function() {
+		var closeEvent = new Event('mouseout');
+		links.dispatchEvent(closeEvent);
+	});
 	window.changeLang = function(lang) {
 		if (typeof lang !== 'string' || lang.length !== 2) {
 			return;

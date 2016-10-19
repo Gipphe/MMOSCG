@@ -102,9 +102,6 @@ footer {
         justify-content: center;
         flex-flow: column;
     }
-    section div {
-        margin-top: 25px;
-    }
     #educk {
         flex-flow: column-reverse;
     }
@@ -120,9 +117,20 @@ footer {
     }
 
     section div {
+        margin-top: 25px;
         display: block;
         width: 80% !important;
         font-size: 16pt !important;
+    }
+    #top div.name {
+        margin: 0 !important;
+        width: 100% !important;
+        font-size: 900% !important;
+    }
+    #top p {
+        margin: 0 !important;
+        width: 100% !important;
+        font-size: 160% !important;
     }
 }
 /* Main image
