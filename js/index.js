@@ -5,5 +5,9 @@
 		}
 		var body = document.body;
 		body.setAttribute('lang', lang);
+
+		// var selected = document.getElementById('selected');
+
+
 	};
 }());

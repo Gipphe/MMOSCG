@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-* {
-    box-sizing: content-box;
-}
+
 body {
     margin: 0;
     font-family:'Raleway', sans-serif;
     background-color: #eee;
+    font-size: 13pt;
+}
+p {
+    font-size: inherit;
 }
 
 /* Sections
@@ -18,7 +20,8 @@ main {
     margin: 0;
     padding: 0;
 }
-section {
+section,
+footer {
     box-sizing: border-box;
     background-color: #fff;
     padding: 20px 30px;
@@ -28,7 +31,6 @@ section {
     box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.1);
 }
 section p {
-    margin: 0;
     padding: 0;
 }
 @media only screen and (max-width: 1001px) {
@@ -47,6 +49,13 @@ section .subtitle {
     color: rgb(46, 117, 181);
     font-weight: 400;
     font-size: 110%;
+}
+footer {
+    text-align: center;
+    font-size: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* Main image
 ----------- */
@@ -72,6 +81,7 @@ section .subtitle {
     padding: 20px;
 }
 #top p {
+    margin: 0;
     font-size: 150%;
     text-align: center;
 }
@@ -115,12 +125,16 @@ nav .languages {
     align-items: center;
     justify-content: center;
 }
-nav a,
+nav a, 
 nav span {
+    height: 30px;
     line-height: 30px;
     cursor: pointer;
 }
 nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 10px;
     transition: background-color .4s, color .3s;
 }
@@ -128,13 +142,27 @@ nav .links a:hover {
     background-color: rgba(0,0,0,0.5);
     color: #fff;
 }
+nav .languages {
+    display: flex;
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
 nav .languages img {
-    height: 30px;
+/*    filter: grayscale(70%);
+*/    height: 20px;
+    border-radius: 2px;
+}
+nav .languages a {
+    margin: 0 2px;
 }
 
-nav .languages .selected a {
+nav .languages #selected a {
     background-color: #ddd;
 }
+/*nav .languages #selected img {
+    filter: none !important;
+}*/
 
 /* Oversettelser
 ------------ */
